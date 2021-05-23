@@ -1,0 +1,15 @@
+server:
+   port: 8081
+   
+app:
+   name: spring-default-profile-demo-app
+   description: Welcome to ${app.name}
+   
+my:
+   greeting: Hello from local
+   list:
+      values: one, two, three
+      
+spring:
+   profiles:
+      active: dev

@@ -1,0 +1,11 @@
+server:
+   port: 8082
+   
+app:
+   name: spring-dev-profile-demo-app
+   description: Welcome to ${app.name}
+   
+my:
+   greeting: Hello from dev
+   list:
+      values: one, two, three
